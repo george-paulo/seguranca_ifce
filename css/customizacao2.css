@@ -1,17 +1,17 @@
 /* Variáveis para mudança de cores */
 :root {
-    --cor1: rgb(216, 212, 212);
-    --cor2: rgb(241, 236, 236);
+    --cor1: rgb(221, 81, 81);
+    --cor2: rgb(55, 112, 72);
     --cor3: rgb(8, 8, 8);
     --cor4: #000000;
-    --cor5: #FFFFFF;
-    --cor6: #111010;
-    }
-    
+    --cor5: #111010;
+    --cor6: #1d9797;    
+ 
+}
 /* Plano de fundo em cinza */
 .background {
     background-color: var(--cor1);
-}
+    }
 
 /*Classe para manipular o cabeçalho*/
 .cabecalho {
@@ -31,20 +31,13 @@
     font-family: Verdana, sans-serif;
     }
 
-nav li {
-        display: inline-block;
-        padding: 1em;
-    }    
-
 nav li ul {
-    display: none;
-    }
-
+        display: none;
+        }
+    
 nav li:hover ul {
-    display: block;
-    position: absolute;
-}    
-
+        display: block;
+    }    
 
 a {
     text-decoration: none;
@@ -112,7 +105,7 @@ a:hover {
     font-size: 20px;
     border: 1px solid var(--cor4);
     background-color: var(--cor4);
-    color: var(--cor5);
+    color: var(--cor6);
     padding: 1em;
     margin-bottom: 1em;
 
@@ -121,7 +114,7 @@ a:hover {
 /*Classe manipular a textos "rodapé"*/
 .texto3 {
     text-align: center;
-    color: var(--cor6);
+    color: var(--cor5);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
     padding: 6em;
