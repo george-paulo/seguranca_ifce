@@ -5,13 +5,14 @@
     --cor3: rgb(8, 8, 8);
     --cor4: #000000;
     --cor5: #111010;
-    --cor6: #1d9797;    
- 
+    --cor6: #1d9797;
+
 }
+
 /* Plano de fundo em cinza */
 .background {
     background-color: var(--cor1);
-    }
+}
 
 /*Classe para manipular o cabeçalho*/
 .cabecalho {
@@ -20,6 +21,11 @@
     padding: 1em;
 }
 
+header {
+    position: sticky;
+    border: 1px solid;
+    top: 0;
+}
 
 /*Classe para manipular conteúdo do menu de navegação*/
 .navegacao_cont {
@@ -29,15 +35,15 @@
     font-weight: bold;
     text-decoration: none;
     font-family: Verdana, sans-serif;
-    }
+}
 
 nav li ul {
-        display: none;
-        }
-    
+    display: none;
+}
+
 nav li:hover ul {
-        display: block;
-    }    
+    display: block;
+}
 
 a {
     text-decoration: none;

@@ -6,20 +6,32 @@
     --cor4: #000000;
     --cor5: #FFFFFF;
     --cor6: #111010;
-    }
-    
+}
+
 /* Plano de fundo em cinza */
 .background {
     background-color: var(--cor1);
 }
 
 /*Classe para manipular o cabeçalho*/
-.cabecalho {
-    margin: 1em 0;
-    background-color: var(--cor2);
-    padding: 1em;
+
+header {
+    position: sticky;
+    border: 1px solid;
+    top: 0;
 }
 
+.cabecalho {
+    margin: 1em;
+    background-color: var(--cor2);
+    padding: 1em;
+    position: sticky;
+}
+
+nav {
+    position: sticky;
+    background-color: var(--cor2)
+}
 
 /*Classe para manipular conteúdo do menu de navegação*/
 .navegacao_cont {
@@ -29,21 +41,21 @@
     font-weight: bold;
     text-decoration: none;
     font-family: Verdana, sans-serif;
-    }
+}
 
 nav li {
-        display: inline-block;
-        padding: 1em;
-    }    
+    display: inline-block;
+    padding: 1em;
+}
 
 nav li ul {
     display: none;
-    }
+}
 
 nav li:hover ul {
     display: block;
     position: absolute;
-}    
+}
 
 
 a {
@@ -134,6 +146,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     padding: 3em;
+    margin: 0;
 }
 
 article {
